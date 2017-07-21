@@ -1,0 +1,38 @@
+﻿@model SleepApp.Models.UserViewModel 
+
+<h1>Welcome to SleepTracker</h1>
+<p>Track the number of hours you sleep!</p>
+<p>Please enter information listed to create account</p>
+
+@using (Html.BeginForm("SaveUser","Home",FormMethod.Post)){
+     <div>
+        <p>First Name</p>
+        @Html.TextBoxFor(model => model.user.firstName, new { @class = "form-control"})
+
+        <br/>
+
+        <p>Last Name</p>
+        @Html.TextBoxFor(model => model.user.lastName, new { @class = "form-control"})
+
+        <br/>
+
+        <p>Age</p>
+        @Html.TextBoxFor(model => model.user.age, new { @class = "form-control"})
+
+        <br/>
+
+        <p>Username</p>
+        @Html.TextBoxFor(model => model.user.userName, new { @class = "form-control"})
+
+        <br/>
+
+        <p>Password</p>
+        @Html.PasswordFor(model => model.user.password)
+
+<br/>
+<br/>
+
+        <button type="Submit">Create Account</button>
+    </div>
+
+}

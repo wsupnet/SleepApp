@@ -1,0 +1,8 @@
+/Users/wesleys/Desktop/SACA-intermediate/SleepApp/bin/Debug/netcoreapp1.1/SleepApp.deps.json
+/Users/wesleys/Desktop/SACA-intermediate/SleepApp/bin/Debug/netcoreapp1.1/SleepApp.runtimeconfig.json
+/Users/wesleys/Desktop/SACA-intermediate/SleepApp/bin/Debug/netcoreapp1.1/SleepApp.runtimeconfig.dev.json
+/Users/wesleys/Desktop/SACA-intermediate/SleepApp/bin/Debug/netcoreapp1.1/SleepApp.dll
+/Users/wesleys/Desktop/SACA-intermediate/SleepApp/bin/Debug/netcoreapp1.1/SleepApp.pdb
+/Users/wesleys/Desktop/SACA-intermediate/SleepApp/obj/Debug/netcoreapp1.1/SleepApp.AssemblyInfo.cs
+/Users/wesleys/Desktop/SACA-intermediate/SleepApp/obj/Debug/netcoreapp1.1/SleepApp.dll
+/Users/wesleys/Desktop/SACA-intermediate/SleepApp/obj/Debug/netcoreapp1.1/SleepApp.pdb

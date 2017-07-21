@@ -1,0 +1,26 @@
+@model SleepApp.Models.UserViewModel
+
+@using (Html.BeginForm("SaveUser","Home",FormMethod.Post)){
+     <div style="margin: 2em;">
+            
+            <h4>First Name:</h4>
+            @Html.TextBoxFor(model => model.user.firstName)
+
+            <h4>Last Name:</h4>
+            @Html.TextBoxFor(model => model.user.lastName)
+
+            <h4>Username</h4>
+            @Html.TextBoxFor(model => model.user.userName)
+            
+            <h4>Age</h4>
+            @Html.TextBoxFor(model => model.user.age)
+
+            <h4>Password</h4>
+            @Html.TextBoxFor(model => model.user.password)
+
+            <!-- Hidden for to create instance of object -->
+            @Html.HiddenFor(model => model.user.id)
+            
+        <button type="submit">Save Changes</button>
+    </div>
+}
